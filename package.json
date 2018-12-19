@@ -1,0 +1,22 @@
+{
+  "name": "new-server",
+  "version": "1.0.0",
+  "description": "opentok api node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "author": "null",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "opentok": "^2.8.0",
+    "path": "^0.12.7"
+  }
+}
