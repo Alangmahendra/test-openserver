@@ -38,7 +38,7 @@ router.get('/', function (req, res) {
 /**
  * GET /session redirects to /room/session
  */
-router.get('/session', function (req, res) {
+router.get('/sesi', function (req, res) {
   res.redirect('/room/session');
 });
 
