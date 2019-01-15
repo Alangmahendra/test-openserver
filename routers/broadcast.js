@@ -32,7 +32,7 @@ function findRoomFromSessionId(sessionId) {
 }
 
 router.get('/', function (req, res) {
-  res.render('index', { title: 'Learning-OpenTok-Node' });
+  res.status(200).json({ title: 'Learning-OpenTok-Node' });
 });
 
 /**
@@ -200,5 +200,3 @@ router.get('/archive', function (req, res) {
 });
 
 module.exports = router;
-
-module.exports = router
